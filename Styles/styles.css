@@ -17,3 +17,14 @@ justify-content: center;
 color: white;
 text-align: center
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#icon {
+display: flex;
+justify-content: center;
+}
