@@ -1,14 +1,15 @@
 body {
-color: white;
-background-color: green
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255)
 }
 
-img {width: 35%;
-height: 35%;
+img {width: 20%;
+height: 20%;
 }
 
 
 #bild-hemskärm {
+
 display: flex;
 justify-content: center;
 }
@@ -21,10 +22,31 @@ text-align: center
 header {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    align-items: center;
+
+    color: aliceblue;
+    background-color: green;
+}
+
+nav {
+    display: flex;
+    gap: 30px
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+
 }
 
 #icon {
 display: flex;
 justify-content: center;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
 }

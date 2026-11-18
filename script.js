@@ -1,7 +1,7 @@
 //console.log(Hello World!);
 
 
-let icon = document.getElementById("Logo"); 
+let icon = document.getElementById("logo"); 
 
 console.log(icon)
 
