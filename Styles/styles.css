@@ -1,6 +1,6 @@
 body {
-color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255)
+color: rgb(255, 255, 255);
+background-color: rgb(2, 43, 5)
 }
 
 img {width: 20%;
@@ -14,16 +14,40 @@ display: flex;
 justify-content: center;
 }
 
-.mer-info {
+.välkommen {
 color: white;
 text-align: center
+}
+
+.välkommen-text {
+
+    text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(2, 43, 5);
+  padding: 10px;
+}
+.cards div {
+  background-color: green;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cards a {
+    text-decoration: none;
+    color: aliceblue
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-top: 10px;
+
     align-items: center;
 
     color: aliceblue;
