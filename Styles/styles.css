@@ -185,12 +185,36 @@ nav a:hover {
     text-align: center;
 }
 
+/*Bestämmer storleken på bilden*/
+.om-mig-bild {
+    height: 30%;
+    width: 30%;
+
+}
+
+/*Centrerar texten på om mig-sidan*/
 .om-mig-text {
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.kontakta-mig{
+
+/*Ändrar placering på text och bild*/
+.kontakta-mig {
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
 }
+
+
+/*Ändrar position och storlek på instagram-loggan*/
+.instagram {
+    height: 40%;
+    width: 40%;
+    justify-content: center;
+}
+
+
+
