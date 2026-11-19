@@ -169,8 +169,12 @@ nav a:hover {
 }
 
 .error img {
-    height: 40%;
-    width: 40%;
-    display: flex;
+    height: 70%;
+    width: 70%;
+}
+
+.felmeddelande {
+    text-decoration: none;
+    color: aliceblue;
     justify-content: center;
 }

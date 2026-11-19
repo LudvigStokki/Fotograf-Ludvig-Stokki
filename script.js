@@ -1,5 +1,4 @@
-//console.log(Hello World!);
-
+//Loggan uppe till vänster skickar tillbaks till hemskärmen
 
 let icon = document.getElementById("logo"); 
 
