@@ -167,3 +167,10 @@ nav a:hover {
     object-fit: cover;
     align-items: center;
 }
+
+.error img {
+    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
