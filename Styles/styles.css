@@ -182,5 +182,11 @@ nav a:hover {
 
 .om-mig{
     color: white;
-    text-align: center
+    text-align: center;
+}
+
+.om-mig-text {
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
