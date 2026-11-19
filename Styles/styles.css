@@ -86,6 +86,7 @@ nav a:hover {
 
 .alla {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     padding: 30px;
     align-items: center;
@@ -177,4 +178,9 @@ nav a:hover {
     text-decoration: none;
     color: aliceblue;
     justify-content: center;
+}
+
+.om-mig{
+    color: white;
+    text-align: center
 }
